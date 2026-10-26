@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/releases/:id", "destination": "/api/loader/:id" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
